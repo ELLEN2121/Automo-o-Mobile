@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.11.4 on win32)" generated="2025-09-18T20:20:31.215071" rpa="false" schemaversion="5">
+<suite id="s1" name="Home" source="C:\QAx\projects\yodapp-robot\tests\home.robot">
+<test id="s1-t1" name="Deve abrir a tela principal" line="5">
+<kw name="Open Application" owner="AppiumLibrary">
+<arg>http://localhost:4723</arg>
+<arg>platformName=Android</arg>
+<arg>deviceName=Android Emulator</arg>
+<arg>automationName=UIAutomator2</arg>
+<arg>app=${EXECDIR}/app/yodapp-beta.apk</arg>
+<arg>udid=emulator-5554</arg>
+<arg>autoGrantPermissions=true</arg>
+<doc>Opens a new application to the given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.19/guides/caps/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | No     | alias             |</doc>
+<status status="PASS" start="2025-09-18T20:20:31.459422" elapsed="6.792784"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Yodapp</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2025-09-18T20:20:38.252206" elapsed="5.029893"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>Mobile Training</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2025-09-18T20:20:43.283101" elapsed="2.077151"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="AppiumLibrary">
+<arg>by Papito</arg>
+<doc>Waits until the ``text`` appears on the current page.</doc>
+<status status="PASS" start="2025-09-18T20:20:45.360252" elapsed="2.068020"/>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary">
+<doc>Closes the current application and the webdriver session.</doc>
+<status status="PASS" start="2025-09-18T20:20:47.428272" elapsed="2.402859"/>
+</kw>
+<status status="PASS" start="2025-09-18T20:20:31.459422" elapsed="18.371709"/>
+</test>
+<status status="PASS" start="2025-09-18T20:20:31.216072" elapsed="18.615059"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Home" id="s1" pass="1" fail="0" skip="0">Home</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
