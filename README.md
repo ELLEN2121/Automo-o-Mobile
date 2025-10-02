@@ -24,17 +24,14 @@ Automação de testes mobile Android usando **Robot Framework** com **AppiumLibr
 
 ## ⚠️ Observações
 
-autoGrantPermissions=true concede automaticamente todas as permissões do app.
+- `autoGrantPermissions=true` concede automaticamente todas as permissões do app.  
+- Substitua `emulator-5554` pelo `udid` do seu dispositivo, se necessário.  
+- Certifique-se de que o Appium Server esteja rodando antes da execução do teste:
 
-Substitua emulator-5554 pelo udid do seu dispositivo se necessário.
+## 📚 Referências
 
-Assegure que o Appium Server esteja rodando antes da execução do test
+- [Robot Framework](https://robotframework.org/)  
+- [Appium](https://appium.io/docs/en/about-appium/overview/)  
+- [AppiumLibrary Docs](https://robotframework-appiumlibrary.readthedocs.io/)
 
-##📚 Referências
-
-Robot Framework
-
-Appium
-
-AppiumLibrary Docs
 
