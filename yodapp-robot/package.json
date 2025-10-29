@@ -1,0 +1,11 @@
+{
+  "name": "yodapp",
+  "version": "1.0.0",
+  "description": "Projeto de testes mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ellen Caldas",
+  "license": "ISC" 
+}
